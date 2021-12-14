@@ -1,0 +1,12 @@
+{
+  "slackHook": "https://hooks.slack.com/services/01234/5678",
+  "verbose": true,
+  "dryRun": false,
+  "interval": 300,
+  "apps": [
+    {
+      "appId": "id405015280",
+      "regions": ["kr"]
+    }
+  ]
+}

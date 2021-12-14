@@ -1,0 +1,22 @@
+{
+  "name": "management-app-review",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "app-store-scraper": "^0.17.0",
+    "aws-sdk": "^2.1041.0",
+    "google-play-scraper": "^8.0.4"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.44.0",
+    "@shelf/jest-dynamodb": "^2.1.0",
+    "jest": "^27.4.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
