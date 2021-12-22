@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "app-store-scraper": "^0.17.0",
     "aws-sdk": "^2.1041.0",
+    "app-store-scraper": "^0.17.0",
     "google-play-scraper": "^8.0.4"
   },
   "devDependencies": {

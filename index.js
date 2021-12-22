@@ -20,7 +20,7 @@ const GLYDE = {
 
 
 appInfoController
-  .getPlaystoreInfo(NSMALL)
+  .getGoogleAppInfoByAppId(NSMALL)
   .then(function (data) {
     // console.log(data); // response 값 출력
     console.log(data.title);
@@ -31,11 +31,11 @@ appInfoController
     console.error(err); // Error 출력
   });
 
-appInfoController
-  .getGoogleReviews(NSMALL_REVIEW)
-  .then(function (data) {
-    console.log(data);
-  })
-  .catch(function (err) {
-    console.error(err);
-  });
+// appInfoController
+//   .getGoogleReviews(NSMALL_REVIEW)
+//   .then(function (data) {
+//     console.log(data);
+//   })
+//   .catch(function (err) {
+//     console.error(err);
+//   });
