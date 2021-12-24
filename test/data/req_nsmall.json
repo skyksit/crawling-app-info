@@ -1,0 +1,13 @@
+{
+  "googleApp": {
+    "appId": "com.nsmobilehub",
+    "lang": "ko"
+  },
+  "googleReviews": {
+    "appId": "com.nsmobilehub",
+    "sort": 2,
+    "num": 3,
+    "country": "kr",
+    "lang": "ko"
+  }
+}

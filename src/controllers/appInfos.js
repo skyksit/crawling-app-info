@@ -8,7 +8,16 @@ exports.getGoogleAppInfoByAppId = async (req) => {
     const appInfo = await appinfoModel.findGoogleById(req);
     return appInfo;
   } catch (error) {
-    console.log(`appinfos = ${error}`);
+    return error;
+  }
+};
+
+exports.getGoogleAppReviewsByAppId = async (req) => {
+  try {
+    const appReviews = await appinfoModel.findGoogleReviewsById(req);
+    return appReviews;
+  } catch (error) {
+    return error;
   }
 };
 

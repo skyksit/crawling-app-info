@@ -1,0 +1,22 @@
+{
+  "googleApp": {
+    "title": "NS홈쇼핑",
+    "description": "건강한 아이디어, NS홈쇼핑"
+  },
+  "googleReviews": {
+    "data": [
+      {
+        "id": "gp:AOqpTOE4bkcZFvxpaqA0pSph6gnjVeglkYjsKnqyiFdPpRkO4sNsAkvD5ZdgctdmNGw",
+        "userName": "snaL",
+        "scoreText": "1",
+        "title": null,
+        "text": "로그인 절대안됨ㅡㅡ한시간내내 보안문자를 몇번을 찍는지",
+        "replyDate": null,
+        "replyText": null,
+        "version": "3.2.4",
+        "thumbsUp": 0
+      }
+    ],
+    "nextPaginationToken": "CoEBCn8q"
+  }
+}
