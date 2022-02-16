@@ -96,7 +96,30 @@ describe("Google Playstore", () => {
       expect(res.nextPaginationToken).toBeNull();
     });
   });
+  //Save AppInfo to Database
+  describe("Save AppInfo", () => {
+    //should exist getReviews function
+    it("should have a saveAppInfo function", () => {
+      //Assert
+      expect(appInfoController.saveAppInfo).toBeInstanceOf(Function);
+    });
+    //should call saveAppInfo when saveAppInfo is called
+    it("should call Appinfo saveAppInfo", async () => {
+      //Arrange
+      const req = REQ_NSMALL.googleApp;
+      //Act
+      await appInfoController.saveAppInfo(req);
+      //Assert
+      expect(appInfoModel.saveAppInfo).toHaveBeenCalledWith(req);
+    });
+    //when the appinfo is successfully saved, should return a 201 status code
+    it("should return a 201 status code", async () => {
+      //Arrange
+      const req = REQ_NSMALL.googleApp;
+      //Act
+      const res = await appInfoController.saveAppInfo(req);
+      //Assert
+      expect(res.status).toBe(201);
+    });
+  });
 });
-//Arrange
-//Act
-//Assert

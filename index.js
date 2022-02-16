@@ -7,7 +7,7 @@ const NSMALL = {
 };
 
 const NSMALL_REVIEW = {
-  appId: "com.nsmobilehub2dsada",
+  appId: "com.nsmobilehub",
   sort: 2,
   num: 1,
   country: "kr",
